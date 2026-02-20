@@ -109,6 +109,7 @@
   line-height: 82.5%;
   font-weight: var(--header-weight);
   text-shadow: 4px 4px 0 var(--shadow-color);
+   margin-left: -20px;
 }
 
 .header__description {
