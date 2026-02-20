@@ -192,6 +192,7 @@
 .article__images {
   display: grid;
   gap: var(--padding);
+  margin-top: 10px;
 }
 
 .article__images-image {
