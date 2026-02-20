@@ -1,35 +1,54 @@
+
 :root.theme-light {
-  --header-bg-img: url(../images/cover-image-light.png);
-  --page-bg-color: #FFF1F7;
-  --accent-color: #FF8DCB;
-  --title-color: #FFC2E6;
-  --article-text-color: #353430;
-  --title-decor-text-color: var(--article-text-color);
-  --section-title-text-color: var(--article-text-color);
-  --button-text-color: var(--article-text-color);
-  --border-button-hower-color: rgba(53, 52, 48, 0.4);
-  --decorated-zone-border-color: var(--article-text-color);
+
+  --bg-color: #fff1f7;
+  --accent-color: rgba(255, 141, 203, 1);
+  --title-decoration-bg-color: rgba(255, 141, 203, 1);
+  --shadow-color: rgba(255, 141, 203, 1);
+  --link-shadow-color: rgba(255, 141, 203, 1);
+  --button-hover-outline: rgba(50, 49, 45, 0.4);
+  
+  --not-accent-color: rgba(53, 52, 48, 1);
+  --title-decoration-text-color: rgba(53, 52, 48, 1);
+  --header-color: rgba(255, 194, 230, 1);
+  
+  --bg-image: url("../images/cover-image-light.png");
+  
+  --visible: hidden;
 }
 
-.theme-light .bulb {
-  visibility: hidden;
+.theme-light .page {
+  --bg-color: #fff1f7;
+  --accent-color: rgba(255, 141, 203, 1);
+  --title-decoration-bg-color: rgba(255, 141, 203, 1);
+  --shadow-color: rgba(255, 141, 203, 1);
+  --link-shadow-color: rgba(255, 141, 203, 1);
+  --button-hover-outline: rgba(50, 49, 45, 0.4);
+  
+  --not-accent-color: rgba(53, 52, 48, 1);
+  --title-decoration-text-color: rgba(53, 52, 48, 1);
+  --header-color: rgba(255, 194, 230, 1);
+  
+  --bg-image: url("../images/cover-image-light.png");
+  
+  --visible: hidden;
 }
 
 @media (prefers-color-scheme: light) {
-  :root {
-    --header-bg-img: url(../images/cover-image-light.png);
-    --page-bg-color: #FFF1F7;
-    --accent-color: #FF8DCB;
-    --title-color: #FFC2E6;
-    --article-text-color: #353430;
-    --title-decor-text-color: var(--article-text-color);
-    --section-title-text-color: var(--article-text-color);
-    --button-text-color: var(--article-text-color);
-    --border-button-hower-color: rgba(53, 52, 48, 0.4);
-    --decorated-zone-border-color: var(--article-text-color);
-  }
-
-  .bulb {
-    visibility: hidden;
+  .page {
+    --bg-color: #fff1f7;
+    --accent-color: rgba(255, 141, 203, 1);
+    --title-decoration-bg-color: rgba(255, 141, 203, 1);
+    --shadow-color: rgba(255, 141, 203, 1);
+    --link-shadow-color: rgba(255, 141, 203, 1);
+    --button-hover-outline: rgba(50, 49, 45, 0.4);
+    
+    --not-accent-color: rgba(53, 52, 48, 1);
+    --title-decoration-text-color: rgba(53, 52, 48, 1);
+    --header-color: rgba(255, 194, 230, 1);
+    
+    --bg-image: url("../images/cover-image-light.png");
+    
+    --visible: hidden;
   }
 }
